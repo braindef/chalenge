@@ -53,7 +53,7 @@ line-height: 116px;
   </head>
   <body>
 <div width=100 class="parent">
-<?php if ($_GET["first"]==true ?>
+<?php if ($_GET["first"]==true) ?> 
   <img width=100 class="image1" src="lorberkranz.png" />
 
   <img width=100 class="image2" src="stern.png" />
