@@ -1,0 +1,36 @@
+@font-face {
+    font-family: SensationBold;
+/*    src: url('SansationBold.woff');*/
+    src: url('SansationLight.woff');
+}
+
+
+body { 
+    background-image: url('background.png');
+    background-repeat: repeat;
+    background-attachment: fixed;
+    background-position: center;
+    opacity: 0.99; 
+}
+
+.center {
+    display: block;
+    margin: auto;
+    width: 80%;
+    font-family: SensationBold;
+    text-align: justify;
+    margin-top: 50px;
+}
+
+.button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 32px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
