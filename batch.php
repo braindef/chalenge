@@ -53,11 +53,11 @@ line-height: 116px;
   </head>
   <body>
 <div width=100 class="parent">
-<?php if ($_GET["first"]==true) ?> 
+<?php if ($_GET["first"]==true) { ?> 
   <img width=100 class="image1" src="lorberkranz.png" />
-
+<?php } ?>
   <img width=100 class="image2" src="stern.png" />
-  <div width=100 bgcolor=red class="image3"><font size=5em><?php $_GET["solved"] ?></font></div>
+  <div width=100 bgcolor=red class="image3"><font size=5em><?php echo $_GET["solved"] ?></font></div>
 </div>
 
 </body>
