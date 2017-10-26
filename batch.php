@@ -2,8 +2,9 @@
   <head>
     <link rel="stylesheet" type="text/css" href="./style.css" target="_blank">
     <meta charset="utf-8">
-<style>
 
+
+<style>
 @font-face {
     font-family: ConnectionRegular;
     src: url("Connection.otf") format("opentype");
@@ -52,9 +53,11 @@ line-height: 116px;
   </head>
   <body>
 <div width=100 class="parent">
+<?php if ($_GET["first"]==true ?>
   <img width=100 class="image1" src="lorberkranz.png" />
+
   <img width=100 class="image2" src="stern.png" />
-  <div width=100 bgcolor=red class="image3"><font size=5em>1</font></div>
+  <div width=100 bgcolor=red class="image3"><font size=5em><?php $_GET["solved"] ?></font></div>
 </div>
 
 </body>
