@@ -5,6 +5,17 @@
 }
 
 
+table {
+    align:center;
+    border:0;
+    font-size:5em;
+}
+
+th, td {
+    text-align: left;
+    padding: 25px;
+}
+
 body { 
     background-image: url('background.png');
     background-repeat: repeat;
