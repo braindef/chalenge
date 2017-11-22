@@ -25,25 +25,25 @@
   position: relative;
   top: 0px;
   left:0px;
-  width:100;
-  height:100;
+  width:140;
+  height:140;
 }
 .image2 {
   position: absolute;
   top: 0px;
   left:0px;
-  width:100;
-  height:100;
+  width:140;
+  height:140;
 }
 .image3 {
   position: absolute;
   top: 0px;
   left:0px;
-  width:100;
-  height:100;
+  width:140;
+  height:140;
 text-align: center;
 vertical-align: middle;
-line-height: 116px; 
+line-height: 146px; 
    font-family: 'ConnectionBold'; 
    font-weight: normal; 
    font-style: normal; 
@@ -52,12 +52,12 @@ line-height: 116px;
 </style>
   </head>
   <body>
-<div width=100 class="parent">
+<div width=150 class="parent">
 <?php if ($_GET["first"]==true) { ?> 
-  <img width=100 class="image1" src="lorberkranz.png" />
+  <img width=150 class="image1" src="lorberkranz.png" />
 <?php } ?>
-  <img width=100 class="image2" src="stern.png" />
-  <div width=100 bgcolor=red class="image3"><font size=5em><?php echo $_GET["solved"] ?></font></div>
+  <img width=150 class="image2" src="stern.png" />
+  <div width=150 bgcolor=red class="image3"><font size=5em><?php echo $_GET["solved"] ?></font></div>
 </div>
 
 </body>
