@@ -13,8 +13,8 @@ table {
 
 th, td {
     text-align: left;
-    padding: 25px;
-    color: blue;
+    #padding: 25px;
+    color: red;
 }
 
 body { 

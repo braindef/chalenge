@@ -43,7 +43,7 @@
   height:140;
 text-align: center;
 vertical-align: middle;
-line-height: 146px; 
+line-height: 166px; 
    font-family: 'ConnectionBold'; 
    font-weight: normal; 
    font-style: normal; 
